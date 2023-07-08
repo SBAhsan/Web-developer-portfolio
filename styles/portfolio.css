@@ -22,6 +22,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-title{
     color: #181818;
@@ -35,6 +36,7 @@ nav{
 nav > ul{
     display: flex;
     align-items: center;
+    margin-left: 700px;
 }
 nav li{
     margin-right: 50px;
@@ -43,4 +45,21 @@ nav li{
 nav a{
     color: var(--dark-02, #474747);
     text-decoration: none;
+}
+
+/* header realated styles */
+
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30x 30x 30x 150x;
+    background-color: #FFF8F3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.banner .profile-pic{
+    width: 500px;
 }
