@@ -186,10 +186,51 @@ main {
 .headline-holder {
     padding-right: 60px;
 }
-.para-holder{
+
+.para-holder {
     color: #757575;
     font-weight: 10;
     width: 201px;
 }
 
 /* resume styles*/
+.column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+    gap: 60px;
+}
+
+.column-items-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.column-items-uni {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.column-items-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 500px;
+}
+#summary-title{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.resume-sec{
+    padding-bottom: 20px;
+}
+#resume-button{
+    margin: 50px 0 100px 468px;
+}
