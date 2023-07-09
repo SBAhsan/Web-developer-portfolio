@@ -114,7 +114,7 @@ nav a {
 
 /* main styles */
 
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -126,16 +126,68 @@ main{
     background: #FFF8F3;
     margin: 130px 0;
 }
-.about-info-container{
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 40px;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    font-weight: 20;
+}
+
+.info-description {
+    font-weight: 700;
+}
+
+/* what i do styles */
+
+.what-i-do-sec {
+    border-radius: 10px;
+    margin: 130px 0;
+}
+
+#what-i-do-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 909px;
+    margin-left: 120px;
+}
+
+.what-i-do-boxes {
+    margin-top: 40px;
     display: flex;
     justify-content: space-around;
 }
-.about-info{
-    text-align: center;
+
+.what-i-do-container {
+    width: 267px;
+    height: 300px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 0 0 30px;
+    margin: 0 16px;
 }
-.info-title{
-    font-weight: 20;
+
+.img-holder {
+    width: 44px;
+    height: 44px;
 }
-.info-description{
-    font-weight: 700;
+
+.headline-holder {
+    padding-right: 60px;
+}
+.para-holder{
+    color: #757575;
+    font-weight: 10;
+    width: 201px;
 }
