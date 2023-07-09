@@ -224,13 +224,79 @@ main {
     line-height: 28px;
     width: 500px;
 }
-#summary-title{
+
+#summary-title {
     text-align: center;
     margin-bottom: 80px;
 }
-.resume-sec{
+
+.resume-sec {
     padding-bottom: 20px;
 }
-#resume-button{
+
+#resume-button {
     margin: 50px 0 100px 468px;
+}
+
+/* footer styles */
+
+footer {
+    background: #FFF8F3;
+    display: flex;
+    gap: 100px;
+    padding: 130px 200px;
+}
+
+.footer-column {
+    display: block;
+    width: 50%;
+    padding-right: 200px;
+}
+
+#link-title{
+    margin-top: 10px;
+}
+
+.footer-column-description {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 562px;
+    text-align: left;
+    margin: 0 0 30px 290px;
+}
+
+.contact input[type="text"], input[type="email"], 
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    border: 0;
+    border-radius: 5px;
+    background: #FFF;
+
+}
+.contact{
+    padding-left: 227px;
+}
+
+.contact-input {
+    width: 461px;
+    height: 64px;
+}
+
+.contact-text {
+    width: 461px;
+    height: 180px;
+}
+.social-links{
+    padding-left: 285px;
+}
+.social-links a{
+    margin-right: 25px;
 }
